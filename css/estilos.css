@@ -7,4 +7,7 @@
 .texto::after{
 	position: absolute;
     content: "";
+    height: 7px;
+    width: 100%;
+    bottom: -7px;
 }
