@@ -8,12 +8,15 @@
 .Suscribe p{
 	color: #ffffff;
 	padding-top: 12%;
-	padding-bottom: 60px;
 	text-align: center;
 	font-family: GothamRounded;
     font-size: 18px;
+    position: relative;
 }
 
+body {
+	margin: auto;
+}
 .Enter-your-email{
 	width: 330px;
 	height: 52px;
@@ -21,63 +24,20 @@
 	margin-left: 38%;
 	border-radius: 15px;
 	border: solid; color: #4acaff;
+	position: relative;
 }
+/*placeholder*/
+::-webkit-input-placeholder { color: white; } 
 
 .input{
-	
+	padding-top: 4%;
 	border: none;
 	background-color: #131c25;
-}
+	font-family: GothamRounded;
+    font-size: 14px; }
 
-.placeholder {
-  color: white;
-}
-
-
-/**Parte Angel Sosa**/
-
-#footer{
-	background-color: #f5f5f5;
-	font-size: 15px;
-	}
- 
-
-.pie-hello{
-			padding-top: 65px;
-			padding-bottom: 100px;
-			margin-left: 150px
-}
-
-.pie-hello img{height: 22px;
-			width: 24px}
-
-			
-.hello{
-		color: #a6a5a5;
-		display: inline-block; 
-		padding-left: 10px;
-	} 
-
-
-.copy{
-		padding-top: 30px;
-		padding-right: 350px;
-		color: #a6a5a5;
-		font-size: 15px;
-		display: inline-block;
-	}
-
-#Bird{
-		height: 20px;
-		width: 55px;
-		}
-#Face{
-		height: 20px;
-		width: 48px}
-
-.likes input{
-			width: 35px;
-			height: 20px;
-			/**margin-left: 5px;
-			margin-right: 3px
-			}
+ .lineas{
+ 	background-image: url(../img/lineas.jpg);
+ 	width: 100%;
+ 	height: 7px;
+ }
