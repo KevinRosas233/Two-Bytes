@@ -27,7 +27,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 45px; }
-   .texto:: after {
+   .texto::after {
    	position: absolute;
     content: "";
     left: 50%;
@@ -52,7 +52,6 @@
  	padding: 20px 30px;
  	border: 3px solid #4acaff;
  	border-radius: 6px;
- 	font-family: 'Gotham Rounded', Arial, sans-serif;
  	font-weight: 500;
  	font-style: normal;
  	font-size: 15px;
