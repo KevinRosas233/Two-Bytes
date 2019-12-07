@@ -26,8 +26,18 @@
   	text-transform: capitalize;
     font-style: normal;
     font-weight: normal;
-    font-size: 45px;
-  }
+    font-size: 45px; }
+   .texto:: after {
+   	position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+     height: 4px;
+    width: 14%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #4acaff; }
 
 .Suscribe{
 	width: 100%;
