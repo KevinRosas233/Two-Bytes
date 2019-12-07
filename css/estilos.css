@@ -13,6 +13,40 @@
     z-index: 10;
     background-image: url(../img/lineas.jpg);
 }
+.Suscribe{
+	width: 100%;
+	height: 443px;
+    background-color: #131c25;
+
+}
+
+.Suscribe p{
+	color: #ffffff;
+	padding-top: 12%;
+	padding-bottom: 60px;
+	text-align: center;
+	font-family: GothamRounded;
+    font-size: 18px;
+}
+
+.Enter-your-email{
+	width: 330px;
+	height: 52px;
+	padding-left: 20px;
+	margin-left: 38%;
+	border-radius: 15px;
+	border: solid; color: #4acaff;
+}
+
+.input{
+	
+	border: none;
+	background-color: #131c25;
+}
+
+.placeholder {
+  color: white;
+}
 #footer{
 	background-color: #f5f5f5;
 	}
