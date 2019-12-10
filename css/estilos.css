@@ -219,35 +219,53 @@ input[type=checkbox].visually-hidden
  	text-transform: uppercase;
  	color: #4acaff;
 }
-.Suscribe{
-	width: 100%;
-	height: 443px;
-    background-color: #131c25;
-}
 
-.Suscribe p{
+.Suscripcion{
+	position: relative;
+	height: 450px;
+	padding: 160px 0;
 	color: #ffffff;
-	padding-top: 12%;
-	padding-bottom: 60px;
 	text-align: center;
-	font-family: GothamRounded;
-    font-size: 18px;
-}
-
-.Enter-your-email{
-	width: 330px;
-	height: 52px;
-	padding-left: 20px;
-	margin-left: 38%;
-	border-radius: 15px;
-	border: solid; color: #4acaff;
-}
-
-.input{
-	
-	border: none;
 	background-color: #131c25;
+
 }
+
+.Suscribe{
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+
+
+.Suscripcion h2{
+	margin-top:0 ;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom:30px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.Suscribe-email{
+	width: 300px;
+	padding-top: 13px;
+	padding-left: 20px;
+	padding-right: 50px;
+	padding-bottom: 13px;
+	font-size: 14px;
+	font-style: italic;
+	border: 2px solid; color: #4acaff;
+	border-radius: 10px;
+	background: #131c25;
+}
+
+ .lineas{
+ 	background-image: url(../img/lineas.jpg);
+ 	width: 100%;
+ 	height: 7px;
+ }
 .lineas-2{
  	background-image: url(../img/lineas.jpg);
  	width: 100%;
