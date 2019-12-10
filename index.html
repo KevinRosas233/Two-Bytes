@@ -10,6 +10,61 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
 </head>
 <body>
+	
+    <header class="main-header">
+			<nav class="main-navigation container">
+				<a class="logo">
+					<img src="img/logo.png" alt="TwoBytes Logo" width="133" height="44">
+				</a>
+
+				<ul class="Barra-Inicial">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Employers</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+
+			<div class="search-job container">
+				<p class="TrabajoEncabezado">I’m looking for..</p>
+
+				<form action="/search-job" method="GET" class="formadetrabajo">
+					<p class="search-job-description-wrapper">
+						<label for="descripcion" class="visually-hidden">Job Description</label>
+						<input type="search" name="description"
+									 placeholder="Enter a Job Description"
+									 class="descripcion" id="descripcion">
+					</p>
+
+					<div class="search-job-columns">
+						<p class="tiempocompleto2">
+							<input type="checkbox" name="fulltime"
+										 class="tiempocompleto visually-hidden" id="tiempocompleto">
+							<label for="tiempocompleto">Full time</label>
+						</p>
+
+						<p class="search-job-freelance-wrapper">
+							<input type="checkbox" name="freelance"
+										 class="search-job-freelance visually-hidden" id="search-job-freelance">
+							<label for="search-job-freelance">Part Time / Casual / Freelance</label>
+						</p>
+
+						<p class="search-job-location-wrapper">
+							<label for="search-job-location" class="visually-hidden">Select your Location:</label>
+							<select name="location" id="search-job-location" class="search-job-location">
+								<option value="all">Select your Location</option>
+							</select>
+						</p>
+					</div>
+
+					<button type="submit" class="botonb"><i class="fas fa-search"></i>Search</button>
+				</form>
+			</div>
+		</header>
+
+	
 	<div>
 		<section id="menu-1">
 			<h3 class="texto">We're leaders in <br><strong>creative digital recruitment</strong></h3>
@@ -23,7 +78,7 @@
 		<p>Suscribe to or Job Seeker Mailing List</p>
 		<div class="Enter-your-email">
 			<!--placeholder-->
-			<input type="text" placeholder="Enter Your Email Address" class="input">
+			<input type="text" placeholder="Enter Your Email Address" class="input"><i class="fas fa-envelope" id="22"></i>
 		</div>
 	</div>
 	<div class="lineas-2"></div>
