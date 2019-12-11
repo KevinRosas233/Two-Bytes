@@ -208,7 +208,7 @@ input[type=checkbox].visually-hidden
 .boton{
 	display: block;
  	margin: 0 auto;
- 	width: 222px;
+ 	width: 288px;
  	padding: 20px 30px;
  	border: 3px solid #4acaff;
  	border-radius: 6px;
@@ -218,6 +218,7 @@ input[type=checkbox].visually-hidden
  	text-decoration: none;
  	text-transform: uppercase;
  	color: #4acaff;
+ 	text-align: center;
 }
 
 .Suscripcion{
