@@ -275,30 +275,23 @@ input[type=checkbox].visually-hidden
 .placeholder {
   color: white;
 }
-#footer{
-	background-color: #f5f5f5;
-	}
 
-.pie-hello{
-			padding-top: 65px;
-			padding-bottom: 100px;
-			margin-left: 150px
-}
-
-.pie-hello img{height: 22px;
-			width: 24px}
-
+<section id="footer">
+		<div class="pie-hello">
+			<img src="img/mail.jpg" alt="correo">
+			<p class="hello"> <strong>hello@twobytes.com.au</strong></p>
 			
-.hello{
-		color: #a6a5a5;
-		font-size: 15px;
-		display: inline-block; 
-		padding-left: 10px;
-	} 
-
-
-.copy{
-		padding-top: 30px;
-		color: #a6a5a5;
-		font-size: 15px;
-	}
+		<div id="likes">
+			<p class="copy">Copyright © 2014 Two Bytes Consulting. <strong>Terms & Policies.</strong></p>	
+			<a href="#"><img id="Bird" src="img/Tweet.jpg" alt="Twitter"></a><input class="box-text" type="text" value="692">
+			<a href="#"><img id="Face" src="img/Face.jpg" alt="Facebook"></a><input class="box-text" type="text" value="117">
+		</div>
+	</div>
+</section>
+				
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>	
+</body>
+</html>
