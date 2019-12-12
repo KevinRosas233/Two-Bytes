@@ -208,7 +208,7 @@ input[type=checkbox].visually-hidden
 .boton{
 	display: block;
  	margin: 0 auto;
- 	width: 288px;
+ 	width: 222px;
  	padding: 20px 30px;
  	border: 3px solid #4acaff;
  	border-radius: 6px;
@@ -218,9 +218,8 @@ input[type=checkbox].visually-hidden
  	text-decoration: none;
  	text-transform: uppercase;
  	color: #4acaff;
- 	text-align: center;
 }
-
+/*Suscribe*/
 .Suscripcion{
 	position: relative;
 	height: 450px;
@@ -245,21 +244,22 @@ input[type=checkbox].visually-hidden
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom:30px;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
 .Suscribe-email{
-	width: 300px;
+	width: 35%;
 	padding-top: 13px;
 	padding-left: 20px;
 	padding-right: 50px;
 	padding-bottom: 13px;
 	font-size: 14px;
+	line-height: 25px;
 	font-style: italic;
-	border: 2px solid; color: #4acaff;
-	border-radius: 10px;
-	background: #131c25;
+	border: 2px solid;color: #4acaff;
+	border-radius: 5px;
+	background: url(../img/mail_icon.png)right 25px center no-repeat;
 }
 
  .lineas{
@@ -267,6 +267,7 @@ input[type=checkbox].visually-hidden
  	width: 100%;
  	height: 7px;
  }
+ /*final suscribe*/
 .lineas-2{
  	background-image: url(../img/lineas.jpg);
  	width: 100%;
