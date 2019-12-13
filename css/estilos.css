@@ -302,8 +302,10 @@ input[type=checkbox].visually-hidden
 	} 
 
 .copy{ 
+		
 		display: inline-block;
-		padding-right: 25%
+		padding-right: 25%;
+		color: #a6a5a5;
  }
 
 
