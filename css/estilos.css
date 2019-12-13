@@ -219,6 +219,7 @@ input[type=checkbox].visually-hidden
  	text-decoration: none;
  	text-transform: uppercase;
  	color: #4acaff;
+ 	text-align: center;
 }
 /*Suscribe*/
 .Suscripcion{
