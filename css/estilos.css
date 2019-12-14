@@ -344,13 +344,13 @@ input[type=checkbox].visually-hidden
 		width: 65px}
 
 #Face{
-
+		position: relative;
 		padding-right: 10px;
 		height:25px;
 		width: 65px}
 
 .box-text{	
+			position: relative;
 			height:25px;
 			width:30px
 			}
-
